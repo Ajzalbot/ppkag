@@ -99,8 +99,9 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("CHANNEL", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("GROUP", url="https://t.me/FILMCORNER369")
+                        InlineKeyboardButton("🔰GROUP🔰", url="https://t.me/Tiger_chats"),
+                    
+                        InlineKeyboardButton("🔰CHANNEL🔰", url="https://t.me/FILMCORNER369")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
